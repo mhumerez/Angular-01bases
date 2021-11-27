@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   // se trabaja html en esta misma hoja
 })
 export class AppComponent {
-  public titulo:string = 'Contador App';
+  public titulo:string = 'Contador -- App';
+  numero: number = 10;
 }
