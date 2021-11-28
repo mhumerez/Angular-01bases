@@ -8,10 +8,12 @@ export class ListadoComponent {
 
   heroes: string[] = ['Spiderman', 'Ironman', 'Hulk', 'Thor', 'Capitan America'];
 
+  heroeBorrado: string = ''
+
   borrarHeroe(){
-    console.log('borrando.....');
-    const heroeBorrado = this.heroes.shift();
-    console.log(heroeBorrado);
+    
+    this.heroeBorrado = this.heroes.shift() || '';
+    
     
   }
 
