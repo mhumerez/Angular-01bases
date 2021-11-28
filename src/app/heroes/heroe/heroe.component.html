@@ -11,7 +11,15 @@
     <dd> {{ obtenerNombre() }} </dd>
 
     <td> Capitalizado: </td>
-    <dd> {{ nombre.toUpperCase() }} </dd>
+    <dd> {{ nombreCapitalizado }} </dd>
 
 
 </dl>
+
+<button (click)="cambiarNombre()">
+    Cambiar Heroe
+</button>
+
+<button (click)="cambiarEdad()">
+    Cambiar Edad
+</button>
